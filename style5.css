@@ -1,0 +1,142 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+  
+* {
+    box-sizing: border-box;
+}
+
+.yellow-box {
+    background-color: yellow;
+} 
+
+.pink-box {
+    background-color: pink;
+}
+
+.red-box {
+    background-color: red;
+}
+
+.orange-box {
+    background-color: orangered;
+}
+
+.green-box {
+    background-color: green;
+}
+
+.blue-box {
+    background-color: blue;
+}
+
+.yellow {
+    padding-top:0.5rem;
+    height: 150px;
+}
+
+.pink {
+    padding-top:0.5rem;
+    height: 300px;
+}
+
+.red {
+    height: 50px;
+    padding-top:0.5rem;
+}
+
+.orange {
+    height: 150px;
+    padding-top:0.5rem;
+}
+
+.green {
+    height: 250px;
+    padding-top:0.5rem;
+}
+
+.blue {
+    height: 200px;
+    padding-top: 0.5rem;
+}
+
+@media (max-width: 767px)
+{
+    .container {    
+        flex-direction : column;  
+      }  
+      .yellow {
+            order : 1;  
+            height: 200px; 
+      }  
+      .orange {
+          order: 2;
+            margin-top: -200px;
+            height: 200px;
+       }
+       .green {
+           order: 3;
+           height: 200px;
+           position: absolute;
+           margin-top: 0px;
+       }
+       .pink {
+           order: 4;
+           height: 200px;
+           margin-top: 600px;
+           position: absolute;
+       }
+       .blue {
+           order: 5;
+           height: 200px;
+           margin-top: 400px;
+           position: absolute;
+       }
+}
+@media (min-width: 768px) and (max-width:992px)
+{
+    .container {    
+        flex-direction : column;  
+      }  
+      .yellow {
+            order : 3;  
+            height: 200px; 
+            margin-top: 150px;
+            position: relative;
+      } 
+      .orange {
+          order: 1;
+            margin-top: -850px;
+            height: 150px;
+            position: relative;
+       }
+       .green {
+           order: 2;
+           height: 150px;
+           position: relative;
+           margin-top: -700px;
+           margin-left: 73%;
+           width: 30%;
+       }
+       .pink {
+           order: 4;
+           height: 300px;
+           margin-top: -350px;
+           position: relative;
+       }
+       .blue {
+           order: 5;
+           height: 200px;
+           margin-top: -50px;
+           position: relative;
+       }
+	/*.col-md-12 {float:left;}
+	.green{float:right; margin-top:0px;}*/
+}	
+@media (min-width: 992px)
+{
+
+}
