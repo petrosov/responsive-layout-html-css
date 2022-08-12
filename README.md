@@ -1,7 +1,9 @@
 # responsive-layout-html-css
-This repository is a warm-up to design a simple responsive web page by using css @media rule and order property... 
+This repository is a warm-up to design a simple responsive web page by using css @media rule and order property like the figure below: 
 
 <img src="https://github.com/Taabannn/responsive_layout_html-css/blob/main/static/example.png"/>
+
+And the result is:
 
 https://user-images.githubusercontent.com/90381581/184332962-e07a1567-c846-461f-b404-0c983761d3ba.mp4
 
