@@ -1,6 +1,9 @@
 # responsive-layout-html-css
 This repository is a warm-up to design a simple responsive web page by using css @media rule and order property... 
 
+<img src="https://github.com/Taabannn/responsive_layout_html-css/blob/main/static/example.png"/>
+<a href="https://github.com/Taabannn/responsive_layout_html-css/blob/main/static/result.mp4"></a>
+
 ### Requirements 🔧
 <div class="d-flex">
   <img src="https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5"/>
